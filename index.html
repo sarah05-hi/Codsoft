@@ -3,33 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
+    <title>Sarah Malkani- Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="calculator">
-        <h1>Calculator</h1>
-        <input type="text" id="display" disabled>
-        <div class="buttons">
-            <button onclick="clearDisplay()">C</button>
-            <button onclick="appendValue('/')">/</button>
-            <button onclick="appendValue('*')">*</button>
-            <button onclick="appendValue('7')">7</button>
-            <button onclick="appendValue('8')">8</button>
-            <button onclick="appendValue('9')">9</button>
-            <button onclick="appendValue('-')">-</button>
-            <button onclick="appendValue('4')">4</button>
-            <button onclick="appendValue('5')">5</button>
-            <button onclick="appendValue('6')">6</button>
-            <button onclick="appendValue('+')">+</button>
-            <button onclick="appendValue('1')">1</button>
-            <button onclick="appendValue('2')">2</button>
-            <button onclick="appendValue('3')">3</button>
-            <button onclick="calculateResult()">=</button>
-            <button onclick="appendValue('0')" class="zero">0</button>
-            <button onclick="appendValue('.')">.</button>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1 class="logo"> Sarah Malkani</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <div class="left">
+            <h1>Welcome!</h1>
+            <p>I am a web developer passionate about creating stunning, user-friendly websites.</p>
+        </div>
+        <div class="right">
+            <img src="me.jpg" alt="Your Photo">
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a creative developer with a knack for turning ideas into reality. I specialize in front-end development and love crafting beautiful, responsive designs.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>NutriNook</h3>
+            <p>My project, NutriNook is designed to help individuals understand the nutritional value of the foods they consume daily. Whether you're aiming to manage a specific health condition, improve overall wellness, or simply learn more about what you're eating, NutriNook provides the insights needed to support your nutritional goals and foster a healthier lifestyle.</p>
+        </div>
+        <div class="project">
+            <h3>Gym Website</h3>
+            <p>A user-friendly, aesthetically appealing, clean website made for a gym for new users to easily get in contact with the gym's management.</p>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+<section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume:</p>
+    <a href="C:\Users\sarah\OneDrive\Desktop\Documents\Resume.docx" download class="resume-button">Download Resume</a>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="malkanisarah2@gmail.com">malkanisarah2@gmail.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SarahM. All rights reserved.</p>
+    </footer>
 </body>
 </html>
